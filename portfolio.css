@@ -24,7 +24,7 @@ body {
 
 header::before {
   content: "";
-  background: url("images/nature.jpg") no-repeat center center/cover;
+  background: url("nature.jpg") no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -1306,7 +1306,7 @@ p:nth-child(odd) {
 
 #contact::before {
   content: "";
-  background: url("images/black\ background.jpg") no-repeat center center/cover;
+  background: url("black\ background.jpg") no-repeat center center/cover;
   position: absolute;
   height: 200%;
   width: 100%;
