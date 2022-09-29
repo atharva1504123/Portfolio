@@ -5,7 +5,9 @@ const element = document.body;
 const section = document.querySelector('section')
 const certificate = document.getElementById('certificate')
 const nav = document.getElementsByClassName('navigation')
+const footer = document.getElementById('footer')
 const circle = document.querySelector('.circle');
+const header = document.getElementById('home')
 circle.addEventListener('click', darkMode);
 function darkMode() {
     circle.style.transition = '1s';
@@ -15,6 +17,9 @@ function darkMode() {
     element.className = "dark";
     section.style.background = "black";
     certificate.style.background = "black";
+    footer.style.background = "black"
+    header.style.background = "black"
+    header.style.opacity = "1"
 }
 
 const light = document.querySelector('.checkbox');
@@ -25,7 +30,11 @@ function lightMode(){
     circle.style.background = 'var(--primary-color)';
     modeButton.style.background = 'var(--secondary-color)';
     element.className = "light"
-    section.style.background = "#e0d3ef";
+    section.style.background = "var(--primary-color)";
+    certificate.style.background = "#e6e6e6";
+    footer.style.background = "var(--primary-color)"
+    header.style.background = "none"
+    header.style.opacity = "1"
 }
 
 // Pre-loader

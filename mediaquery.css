@@ -1,0 +1,233 @@
+@media screen and (max-width: 320px) {
+  #home {
+    height: 150vh;
+    width: 400%;
+  }
+
+  header::before {
+    min-height: 151vh;
+    width: 400%;
+  }
+
+  .loader {
+    transform: translate(39%, 50%);
+  }
+
+  .span-loader {
+    font-size: 30vw;
+  }
+
+  .progress-bar {
+    width: 159vw;
+  }
+
+  .navigation {
+    width: 400%;
+  }
+
+  .navigation::before {
+    height: 5%;
+  }
+
+  .navbar ul li a {
+    font-size: 1.3rem;
+  }
+
+  .navbar {
+    left: 11rem;
+    top: 6rem;
+  }
+
+  .heading {
+    width: 15rem;
+    left: 40%;
+  }
+
+  .heading > p {
+    font-size: 3rem;
+  }
+
+  .image-content::before {
+    top: 18rem;
+    left: 5rem;
+    width: 42rem;
+  }
+
+  .image-content > p {
+    top: 20rem;
+    left: 10rem;
+  }
+
+  .image-content-button {
+    top: 21rem;
+    left: 10rem;
+    width: 34rem;
+  }
+
+  .image-content-button a {
+    font-size: 1.3rem;
+  }
+
+  .image-content > h3 {
+    top: 18rem;
+    left: 10rem;
+    font-size: 1.3rem;
+  }
+
+  .social-icons {
+    top: 23rem;
+    right: -57rem;
+  }
+
+  .icon-label {
+    top: 10.7rem;
+    left: 68rem;
+    font-size: 1.2rem;
+  }
+
+  #about {
+    height: fit-content;
+    width: 400%;
+  }
+
+  .section-content {
+    height: 125vh;
+  }
+
+  .section-content > h4 {
+    font-size: 2rem;
+  }
+
+  .section-content > p {
+    left: 11rem;
+    font-size: 2.3rem;
+    width: 65rem;
+  }
+  .static-text {
+    left: 14rem;
+  }
+
+  .dynamic-text {
+    left: 15rem;
+  }
+
+  .learn-more-button {
+    top: 15rem;
+    left: 31rem;
+    font-size: 1.5rem;
+  }
+
+  .scroll-up {
+    bottom: 12rem;
+    right: 2rem;
+  }
+
+  .intro-image {
+    height: 40rem;
+    left: 5rem;
+    top: 12rem;
+  }
+
+  .intro-image > img {
+    height: 40rem;
+  }
+
+  .intro::before,
+  .intro::after {
+    top: 117rem;
+    left: 3em;
+    height: 43rem;
+  }
+
+  .intro > h4 {
+    bottom: 31rem;
+    left: 12.7rem;
+    font-size: 1.3rem;
+  }
+
+  .intro > h1 {
+    font-size: 3rem;
+    bottom: 27rem;
+    left: 7rem;
+  }
+
+  .intro > p {
+    width: 37rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    left: 40rem;
+    top: -24rem;
+  }
+
+  .details {
+    bottom: 13rem;
+    left: 3rem;
+  }
+
+  .details-image > h3 {
+    padding: 0rem 3rem 0rem 5rem;
+    font-size: 1.3rem;
+  }
+
+  .interest > h1 {
+    font-size: 2rem;
+    bottom: 3rem;
+    left: 8rem;
+  }
+  .interest-image {
+    position: relative;
+    left: -3rem;
+    top: 1rem;
+    padding-right: 5rem;
+  }
+
+  .interest-image > h3 {
+    font-size: 1.2rem;
+  }
+
+  #services {
+    width: 400%;
+    height: 180vh;
+  }
+
+  .container {
+    width: 82%;
+    height: 100%;
+    top: 5rem;
+  }
+
+  .slide {
+    min-width: 137%;
+  }
+
+  .slides-row {
+    width: 99%;
+  }
+
+  .slide-content {
+    width: 103%;
+  }
+
+  .slide-content::before {
+    inset: 66px;
+  }
+
+  .slide-des {
+    top: 11rem;
+    left: 8rem;
+    width: 52rem;
+    font-size: 1.5rem;
+  }
+
+  .slide-title {
+    display: inline-block;
+    position: relative;
+    left: 8rem;
+    top: 4rem;
+    font-size: 5rem;
+  }
+
+  .slide:hover .slide-title {
+    transform: translateY(4rem);
+  }
+}
