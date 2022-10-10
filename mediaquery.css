@@ -1,184 +1,232 @@
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
   #home {
-    height: 150vh;
-    width: 400%;
+    height: 102vh;
   }
 
   header::before {
-    min-height: 151vh;
-    width: 400%;
+    min-height: 102vh;
+    width: 101%;
   }
 
   .loader {
-    transform: translate(39%, 50%);
+    transform: translate(-50%, -35%);
   }
 
   .span-loader {
-    font-size: 30vw;
+    font-size: 16vw;
   }
 
   .progress-bar {
-    width: 159vw;
+    width: 88vw;
+    top: 6rem;
+  }
+
+  .dark-light-mode{
+    top: 3rem;
+    position: fixed;
+  }
+
+  .mode-button{
+    width: 3.5rem;
+  }
+
+  .circle{
+    width: 1rem;
+    height: 1.1rem;
+    top: 0.35rem;
+    border-radius: 7px;
+  }
+
+  .checkbox{
+    left: 1.5rem;
   }
 
   .navigation {
-    width: 400%;
+    width: 100%;
   }
 
   .navigation::before {
     height: 5%;
-  }
-
-  .navbar ul li a {
-    font-size: 1.3rem;
-  }
-
-  .navbar {
-    left: 11rem;
-    top: 6rem;
+    width: 39%;
+    position: fixed;
   }
 
   .heading {
-    width: 15rem;
-    left: 40%;
+    width: 10rem;
+    position: fixed;
+    left: 6.5rem;
   }
 
   .heading > p {
-    font-size: 3rem;
-  }
-
-  .image-content::before {
-    top: 18rem;
-    left: 5rem;
-    width: 42rem;
-  }
-
-  .image-content > p {
-    top: 20rem;
-    left: 10rem;
-  }
-
-  .image-content-button {
-    top: 21rem;
-    left: 10rem;
-    width: 34rem;
-  }
-
-  .image-content-button a {
-    font-size: 1.3rem;
-  }
-
-  .image-content > h3 {
-    top: 18rem;
-    left: 10rem;
-    font-size: 1.3rem;
-  }
-
-  .social-icons {
-    top: 23rem;
-    right: -57rem;
-  }
-
-  .icon-label {
-    top: 10.7rem;
-    left: 68rem;
-    font-size: 1.2rem;
-  }
-
-  #about {
-    height: fit-content;
-    width: 400%;
-  }
-
-  .section-content {
-    height: 125vh;
-  }
-
-  .section-content > h4 {
     font-size: 2rem;
   }
 
-  .section-content > p {
-    left: 11rem;
-    font-size: 2.3rem;
-    width: 65rem;
+  .navbar ul li a {
+    font-size: 0.55rem;
+    padding: 0.3rem;
+    margin: 0rem;
   }
+
+  .navbar {
+    left: 0.5rem;
+    top: 1rem;
+  }
+
+  .image-content::before {
+    top: 10rem;
+    left: 1rem;
+    width: 21rem;
+    height: 26rem;
+  }
+
+  .image-content > h3 {
+    top: 8rem;
+    left: 2rem;
+    font-size: 1rem;
+  }
+
+  .image-content > p {
+    top: 10rem;
+    left: 2rem;
+    font-size: 1.2rem;
+    width: 19rem;
+  }
+
+  .image-content-button {
+    top: 11rem;
+    left: 1.5rem;
+    width: 23rem;
+  }
+
+  .image-content-button a {
+    font-size: 0.7rem;
+    margin: 0.6rem 0.6rem 0 0;
+    padding: 0.5rem .5rem 0.5rem .5rem;
+  }
+
+  aside{
+    display: none;
+  }
+
+  #about {
+    height: 390vh;
+    width: 100%;
+  }
+
+  .section-content {
+    height: 105vh;
+  }
+
+  .section-content > h4 {
+    font-size: 0.6rem;
+  }
+
+  .section-content > p {
+    left: 2rem;
+    font-size: 1.2rem;
+    width: 20rem;
+  }
+
   .static-text {
-    left: 14rem;
+    left: 1rem;
+    font-size: 5rem;
+    top: 4.5rem;
   }
 
   .dynamic-text {
-    left: 15rem;
+    left: 1rem;
+    top: 5rem;
+    height: 92px;
+    margin-left: 7px;
+    line-height: 115px;
+  }
+
+  .dynamic-text li{
+    font-size: 2rem;
+  }
+
+  .section-content-line{
+    top: 6rem;
+    left: 4rem;
+    width: 16rem;
   }
 
   .learn-more-button {
-    top: 15rem;
-    left: 31rem;
-    font-size: 1.5rem;
+    top: 11rem;
+    left: 6rem;
+    font-size: 1rem;
+    padding: 13px 27px;
   }
 
   .scroll-up {
-    bottom: 12rem;
-    right: 2rem;
+    display: none;
   }
 
   .intro-image {
     height: 40rem;
-    left: 5rem;
-    top: 12rem;
+    left: 0rem;
+    top: 4rem;
   }
 
   .intro-image > img {
-    height: 40rem;
+    height: 38rem;
+    width: 23rem;
   }
 
   .intro::before,
   .intro::after {
-    top: 117rem;
-    left: 3em;
-    height: 43rem;
+    left: -2em;
+    top: 83rem;
+    height: 40rem;
+    width: 25rem;
   }
 
   .intro > h4 {
-    bottom: 31rem;
-    left: 12.7rem;
+    top: 8rem;
+    left: 8rem;
     font-size: 1.3rem;
   }
 
   .intro > h1 {
     font-size: 3rem;
-    bottom: 27rem;
-    left: 7rem;
+    top: 11rem;
+    left: -1rem;
   }
 
   .intro > p {
-    width: 37rem;
-    font-size: 1.6rem;
+    width: 21rem;
+    font-size: 1rem;
     line-height: 2.4rem;
-    left: 40rem;
-    top: -24rem;
+    left: 1rem;
+    top: 14rem;
   }
 
   .details {
-    bottom: 13rem;
-    left: 3rem;
+    bottom: -17rem;
+    left: .4rem;
   }
 
   .details-image > h3 {
-    padding: 0rem 3rem 0rem 5rem;
-    font-size: 1.3rem;
+    padding: 0rem 1rem 0rem 1rem;
+    font-size: 1rem;
+  }
+
+  .interest{
+    bottom: -22rem;
+    left: -7rem;
+    width: 50rem;
   }
 
   .interest > h1 {
-    font-size: 2rem;
-    bottom: 3rem;
+    bottom: 2rem;
     left: 8rem;
   }
+
   .interest-image {
     position: relative;
-    left: -3rem;
+    left: 0rem;
     top: 1rem;
-    padding-right: 5rem;
+    padding-right: 1rem;
   }
 
   .interest-image > h3 {
@@ -186,18 +234,35 @@
   }
 
   #services {
-    width: 400%;
-    height: 180vh;
+    width: 100%;
+    height: 158vh;
+  }
+
+  .service-content > h1{
+    font-size: 2rem;
+  }
+  
+  .service-content > h4{
+    font-size: .8rem;
+  }
+
+  .sliding-template{
+    height: 104vh;
+    left: 0rem;
+    top: 15rem;
   }
 
   .container {
     width: 82%;
-    height: 100%;
-    top: 5rem;
+    height: 87%;
+  }
+
+  .container span.next, .container span.prev {
+    font-size: 25px;
   }
 
   .slide {
-    min-width: 121%;
+    min-width: 137%;
   }
 
   .slides-row {
@@ -205,7 +270,10 @@
   }
 
   .slide-content {
-    width: 103%;
+    width: 141%;
+    height: 122%;
+    bottom: -3.8rem;
+    right: -32.2rem;
   }
 
   .slide-content::before {
@@ -214,20 +282,195 @@
 
   .slide-des {
     top: 11rem;
-    left: 8rem;
-    width: 52rem;
-    font-size: 1.5rem;
+    left: 5rem;
+    width: 17rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
   }
 
   .slide-title {
-    display: inline-block;
     position: relative;
-    left: 8rem;
-    top: 4rem;
-    font-size: 5rem;
+    left: 4.4rem;
+    top: 6rem;
+    font-size: 1.8rem;
   }
 
   .slide:hover .slide-title {
     transform: translateY(4rem);
   }
+
+  #work{
+    height: 450.5vh;
+  }
+
+  .work-content > h1{
+    top: 10rem;
+    left: 0rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    width: 24rem;
+  }
+
+  .work-content > hr{
+    left: 5rem;
+    width: 13rem;
+  }
+
+  .project{
+    height: 25rem;
+    width: 23.4rem;
+    left: 0rem;
+  }
+
+  .project .work-img{
+    height: 25rem;
+    width: 23.4rem;
+  }
+
+  .project .heading{
+    font-size: 1rem;
+    top: -2.5rem;
+    left: 1rem;
+    width: 12rem;
+    /* opacity: 1; */
+  }
+
+  #hotstar-btn{
+    bottom: 15rem !important;
+    left: -1rem !important;
+  }
+
+  .woodcraft{
+    top: -13.6rem;
+    width: 23.5rem !important;
+    height: 35rem !important;
+  }
+
+  .woodcraft-img{
+    width: 23.4rem !important;
+  }
+
+  .plus-btn{
+    left: -1rem !important;
+  }
+
+  .car{
+    bottom: 15.2rem;
+  }
+
+  .project .check-button{
+    bottom: 14rem;
+    left: -2rem;
+  }
+
+  .grass{
+    top: -16.85rem;
+    width: 23.5rem !important;
+  }
+
+  .grass-img{
+    width: 23.5rem !important;
+  }
+
+  .sba{
+    visibility: hidden;
+  }
+
+  .leaf{
+    top: -60.2rem;
+    width: 23.5rem !important;
+  }
+
+  .leaf-img{
+    width: 23.5rem !important;
+  }
+
+  .leaf-btn{
+    left: -2rem !important;
+    bottom: 18rem !important;
+  }
+
+  #blog{
+    height: 200vh;
+  }
+
+  #certificate{
+    height: 425vh;
+  }
+
+  .certi-heading > h1{
+    font-size: 2.5rem;
+  }
+
+  .certi-container{
+    top: 5rem;
+    height: 137rem;
+  }
+
+  .certi-box{
+    width: 23rem;
+    margin-right: 0;
+  }
+
+  .img-box img{
+    width: 100%;
+    object-fit: unset;
+  }
+
+  .certi-container:hover .certi-box{
+    transform: rotateY(3deg);
+  }
+
+  #contact {
+    height: 330vh;  
+  }
+
+  .contact-heading > h1{
+    font-size: 1.5rem;
+    width: 24rem;
+    left: 0;
+  }
+
+  .contact-form{
+    width: 23rem;
+  }
+
+  .contact-form > h4 {
+    left: 2rem;
+  }
+
+  #form{
+    left: 2rem;
+    width: 23rem;
+  }
+
+  .contact-info{
+    top: 11rem;
+    left: .2rem;
+  }
+
+  .input-text{
+    width: 80%;
+    padding-bottom: 1rem;
+    caret-color: #99a0ae;
+  }
+
+  .submit-btn{
+    width: 82%;
+  }
+
+  .contact-details{
+    top: 48rem;
+    left: -22.5rem;
+    position: relative;
+  }
+
+  #contact::before{
+    height: 330%;
+  }
+
+  .row{
+    flex-direction: column;
+  }
 }
+
